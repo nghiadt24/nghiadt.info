@@ -1,0 +1,221 @@
+// padding
+
+$padding-0: 0px;
+$padding-4: 4px;
+$padding-8: 8px;
+$padding-12: 12px;
+$padding-16: 16px;
+$padding-24: 24px;
+$padding-32: 32px;
+$padding-42: 42px;
+$padding-48: 48px;
+$padding-64: 64px;
+$padding-84: 84px;
+
+// spacing
+
+$spc-0: 0px;
+$spc-4: 4px;
+$spc-8: 8px;
+$spc-12: 12px;
+$spc-16: 16px;
+$spc-24: 24px;
+$spc-32: 32px;
+$spc-42: 42px;
+$spc-48: 48px;
+$spc-64: 64px;
+$spc-84: 84px;
+
+// gap
+
+$gap-0: 0px;
+$gap-4: 4px;
+$gap-8: 8px;
+$gap-12: 12px;
+$gap-16: 16px;
+$gap-24: 24px;
+$gap-32: 32px;
+$gap-42: 42px;
+$gap-48: 48px;
+$gap-64: 64px;
+$gap-84: 84px;
+
+// padding-top
+
+@mixin pt-0 {
+  padding-top: 0px;
+}
+@mixin pt-4 {
+  padding-top: 4px;
+}
+@mixin pt-8 {
+  padding-top: 8px;
+}
+@mixin pt-12 {
+  padding-top: 12px;
+}
+@mixin pt-16 {
+  padding-top: 16px;
+}
+@mixin pt-24 {
+  padding-top: 24px;
+}
+@mixin pt-32 {
+  padding-top: 32px;
+}
+@mixin pt-42 {
+  padding-top: 42px;
+}
+@mixin pt-48 {
+  padding-top: 48px;
+}
+@mixin pt-64 {
+  padding-top: 64px;
+}
+@mixin pt-84 {
+  padding-top: 84px;
+}
+
+// padding bottom
+
+@mixin pb-0 {
+  padding-bottom: 0px;
+}
+@mixin pb-4 {
+  padding-bottom: 4px;
+}
+@mixin pb-8 {
+  padding-bottom: 8px;
+}
+@mixin pb-12 {
+  padding-bottom: 12px;
+}
+@mixin pb-16 {
+  padding-bottom: 16px;
+}
+@mixin pb-24 {
+  padding-bottom: 24px;
+}
+@mixin pb-32 {
+  padding-bottom: 32px;
+}
+@mixin pb-42 {
+  padding-bottom: 42px;
+}
+@mixin pb-48 {
+  padding-bottom: 48px;
+}
+@mixin pb-64 {
+  padding-bottom: 64px;
+}
+@mixin pb-84 {
+  padding-bottom: 84px;
+}
+
+// padding right
+
+@mixin pr-0 {
+  padding-right: 0px;
+}
+@mixin pr-4 {
+  padding-right: 4px;
+}
+@mixin pr-8 {
+  padding-right: 8px;
+}
+@mixin pr-12 {
+  padding-right: 12px;
+}
+@mixin pr-16 {
+  padding-right: 16px;
+}
+@mixin pr-24 {
+  padding-right: 24px;
+}
+@mixin pr-32 {
+  padding-right: 32px;
+}
+@mixin pr-42 {
+  padding-right: 42px;
+}
+@mixin pr-48 {
+  padding-right: 48px;
+}
+@mixin pr-64 {
+  padding-right: 64px;
+}
+@mixin pr-84 {
+  padding-right: 84px;
+}
+
+// padding left
+
+@mixin pl-0 {
+  padding-left: 0px;
+}
+@mixin pl-4 {
+  padding-left: 4px;
+}
+@mixin pl-8 {
+  padding-left: 8px;
+}
+@mixin pl-12 {
+  padding-left: 12px;
+}
+@mixin pl-16 {
+  padding-left: 16px;
+}
+@mixin pl-24 {
+  padding-left: 24px;
+}
+@mixin pl-32 {
+  padding-left: 32px;
+}
+@mixin pl-42 {
+  padding-left: 42px;
+}
+@mixin pl-48 {
+  padding-left: 48px;
+}
+@mixin pl-64 {
+  padding-left: 64px;
+}
+@mixin pl-84 {
+  padding-left: 84px;
+}
+
+// gap
+
+@mixin gap-0 {
+  gap: 0px;
+}
+@mixin gap-4 {
+  gap: 4px;
+}
+@mixin gap-8 {
+  gap: 8px;
+}
+@mixin gap-12 {
+  gap: 12px;
+}
+@mixin gap-16 {
+  gap: 16px;
+}
+@mixin gap-24 {
+  gap: 24px;
+}
+@mixin gap-32 {
+  gap: 32px;
+}
+@mixin gap-42 {
+  gap: 0px;
+}
+@mixin gap-48 {
+  gap: 48px;
+}
+@mixin gap-64 {
+  gap: 64px;
+}
+@mixin gap-84 {
+  gap: 84px;
+}
