@@ -45,6 +45,9 @@ import './scss/components.scss'
 .GallerySection {
     height: 100vh;
 }
+.GalleryTitle {
+    margin-bottom: 48px;
+}
 .GalleryTitleText {
     @include color-content-neutral-strong;
     text-align: left;
@@ -58,16 +61,23 @@ import './scss/components.scss'
     gap: 24px;
 }
 .WorkCard {
-    flex: 1; 
     display: flex;
     flex-direction: column;
+    flex: 1; 
+    max-width: 100%;
+    gap: 24px; 
+}
+.WorkCard.col-8 {
+    flex: 2; 
+}
+.WorkCard.col-4 {
+    flex: 1; 
 }
 .WorkCardImage {
-    width: 100%;
-    height: 100%;
-    max-height: 484px;
+    width: 100%; 
+    height: 100%; 
     object-fit: cover; 
-    aspect-ratio: auto; 
+    display: block;
 }
 .WorkCardTitleWrap {
     display: flex;
