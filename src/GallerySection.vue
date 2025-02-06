@@ -54,24 +54,20 @@ import './scss/components.scss'
     line-height: 36px;
 }
 .WorkGalleryRow {
-    display: table;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
+    display: flex;
     gap: 24px;
 }
 .WorkCard {
-    display: table-cell;
+    flex: 1; 
+    display: flex;
     flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    gap: 24px;
+}
+.WorkCardImage {
+    width: 100%;
     height: 100%;
-    padding-bottom: 100%;
-    margin-bottom: -100%;
-    min-height: 100%;
-
+    max-height: 484px;
+    object-fit: cover; 
+    aspect-ratio: auto; 
 }
 .WorkCardTitleWrap {
     display: flex;
@@ -79,10 +75,5 @@ import './scss/components.scss'
     justify-content: space-between;
     align-items: center;
     width: 100%;
-}
-.WorkCardImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 </style>
